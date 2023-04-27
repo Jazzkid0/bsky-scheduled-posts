@@ -4,7 +4,7 @@
 
 A simple tool to schedule posts on the Bluesky network.
 
-Hoping to use this within a webpage, allowing users to login, schedule a post, and then have it automatically posted at the scheduled time.
+It'll probably require your computer to be on, unless you're putting it on a server
 
 ---
 
