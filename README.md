@@ -1,9 +1,14 @@
-# atproto starter kit
+# Bluesky scheduled posts
 
-Use this as a template repo. Requires Node 18+ with typescript and ts-node installed globally (`npm i -g typescript ts-node`). Add your bluesky username and password to `.env` then run your app with `npm run start` or `ts-node-esm index.ts`.
+(Work in progress)
 
-I recommend using `eslint` (for linting) and `prettier` (for enforcing code style) in your chosen text editor (or from the command line).
+A simple tool to schedule posts on the Bluesky network.
+
+Hoping to use this within a webpage, allowing users to login, schedule a post, and then have it automatically posted at the scheduled time.
+
+---
 
 API documentation can be found here: [https://github.com/bluesky-social/atproto/tree/main/packages/api](https://github.com/bluesky-social/atproto/tree/main/packages/api)
 
-@ me on bluesky (@aliceisjustplaying.bsky.social, did:plc:by3jhwdqgbtrcc7q4tkkv3cf) if you've built something interesting with it!
+This was built using the template provided by @aliceisjustplaying.bsky.social, did:plc:by3jhwdqgbtrcc7q4tkkv3cf 
+Big thanks to her for the help!
