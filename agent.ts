@@ -17,7 +17,7 @@ const agent = new BskyAgent({
 // load session from file
 let session;
 try {
-  session = JSON.parse(fs.readFileSync('session.json', 'utf8'));
+  session = JSON.parse(fs.readFileSync('sessiondata/session.json', 'utf8'));
 } catch (err) {
   console.error(err);
 }
@@ -35,6 +35,7 @@ if (!agent.hasSession) {
     identifier: process.env.BSKY_USERNAME!,
     password: process.env.BSKY_PASSWORD!,
   });
+  console.log('Logged in.');
 } else {
   console.log("Session resumed.")
 }
